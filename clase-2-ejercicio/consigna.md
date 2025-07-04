@@ -1,7 +1,7 @@
 # 🧪 Ejercicio Práctico: “Página de tu Banda Favorita”
 
 ## 🎯 Objetivo
-Diseñar una página estática en HTML (con un poco de CSS si lo desean) dedicada a una banda o artista musical favorito/a.
+Diseñar una página estática en HTML dedicada a una banda o artista musical favorito/a.
 
 ---
 
@@ -27,6 +27,4 @@ Diseñar una página estática en HTML (con un poco de CSS si lo desean) dedicad
 - Comentario o mensaje
 - Botón de envío (`<button>`)
 
----
 
-## 📁 Estructura de archivos sugerida

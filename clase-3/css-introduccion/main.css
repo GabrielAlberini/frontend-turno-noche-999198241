@@ -1,0 +1,21 @@
+/* selector - propiedad - valor */
+
+h1 {
+  color: goldenrod;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+div {
+  color: black;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url("https://images.unsplash.com/photo-1610393144490-a930182ad2f1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFpc2FqZSUyMGRlJTIwbWFyfGVufDB8fDB8fHww");
+  background-size: cover;
+}

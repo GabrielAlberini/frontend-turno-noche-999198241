@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Nunito";
 }
 
 h1 {
@@ -42,4 +42,13 @@ h1 {
   /* el border pide en orden: grosor, tipo y color */
   border: 4px solid white;
   box-shadow: 9px 9px 25px -10px rgba(0, 0, 0, 0.51);
+}
+
+.btn-login {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }

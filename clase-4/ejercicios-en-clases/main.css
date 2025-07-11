@@ -1,0 +1,36 @@
+/* Selector espeficifico */
+.ejercicio-1 {
+  background-color: rgb(0, 0, 86);
+  font-family: "Montserrat";
+}
+
+.ejercicio-1 h2 {
+  color: yellowgreen;
+  letter-spacing: 4px;
+}
+
+.ejercicio-1 p {
+  color: brown;
+}
+
+/* Ejericio 2 */
+
+.ejercicio-2 .link {
+  text-decoration: none;
+  background-color: aquamarine;
+  padding: 10px;
+  display: inline-block;
+  transition: color 2s;
+}
+
+.ejercicio-2 .link:hover {
+  color: cadetblue;
+}
+
+.ejercicio-2 .link:visited {
+  color: red;
+}
+
+.ejercicio-2 .link:visited:hover {
+  color: violet;
+}

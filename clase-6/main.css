@@ -1,0 +1,19 @@
+img {
+  width: 100px;
+  display: block;
+}
+
+/* Display flex hace que los elementos hijos se acomoden de forma horizontal */
+
+.productos {
+  background-color: yellowgreen;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.productos div {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+}

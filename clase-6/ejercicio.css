@@ -1,0 +1,81 @@
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  display: flex;
+  /* centrar los elementos hijos en el eje X */
+  justify-content: center;
+  /* centrar los elementos hijos en el eje Y */
+  align-items: center;
+  height: 100vh;
+  background-color: #d6e1ff;
+}
+
+img {
+  width: 100%;
+}
+
+article {
+  background-color: white;
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2,
+.content .description {
+  text-align: center;
+}
+
+.content img {
+  width: 30px;
+}
+
+.plans {
+  background-color: #f8f9fe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.plans a {
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s scale;
+}
+
+.btn-payment {
+  margin-bottom: 10px;
+  background-color: #382ae1;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-cancel {
+  font-weight: bold;
+  color: gray;
+}
+
+button:hover {
+  scale: 1.1;
+}

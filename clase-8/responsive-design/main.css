@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  background-color: yellowgreen;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 80px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+}
+
+ul a:hover {
+  background-color: yellow;
+}
+
+/* punto de quiebre */
+/* mientras la pantalla tenga x ancho aplica lo siguientes estilos */
+
+/* MIENTRAS LA PANTALLA TENGA COMO MÁXIMO 480px APLICA LAS SIGUIENTES REGLAS */
+@media (max-width: 480px) {
+  header {
+    background-color: red;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header ul {
+    flex-direction: column;
+  }
+
+  ul a {
+    display: block;
+    text-align: center;
+  }
+
+  body {
+    background-color: blue;
+  }
+
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header img {
+    width: 30px;
+  }
+
+}

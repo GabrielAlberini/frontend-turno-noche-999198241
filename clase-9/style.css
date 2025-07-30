@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan";
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+section {
+  max-width: 900px;
+  padding: 40px;
+}
+
+section .puntuacion,
+section .comentarios {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+section .puntuacion {
+  /*background-color: turquoise;*/
+  gap: 50px;
+}
+
+.puntuacion-titulares {
+  padding: 20px;
+  width: 50%;
+}
+
+.puntuacion-valoraciones {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.contenedor-valoracion {
+  display: flex;
+  background-color: #f7f2f8;
+  color: #52214d;
+  font-weight: bold;
+  padding: 10px;
+  width: 90%;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.contenedor-valoracion:nth-child(1) {
+  align-self: start;
+}
+
+.contenedor-valoracion:nth-child(2) {
+  align-self: center;
+}
+
+.contenedor-valoracion:nth-child(3) {
+  align-self: end;
+}
+
+.puntuacion-titulares h2 {
+  color: #52214d;
+  line-height: 40px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.puntuacion-titulares p {
+  color: #cbc2c8;
+  font-weight: bold;
+}
+
+.profile .imagen {
+  display: flex;
+  gap: 20px;
+}
+
+.imagen p {
+  color: #994880;
+}
+
+.profile img {
+  width: 45px;
+  border-radius: 50%;
+}
+
+.profile {
+  background-color: #52214d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  width: 260px;
+  line-height: 20px;
+  width: 400px;
+}
+
+.comentarios {
+  min-height: 300px;
+}
+
+.comentarios .profile:nth-child(1) {
+  align-self: flex-start;
+}
+
+.comentarios .profile:nth-child(2) {
+  align-self: center;
+}
+
+.comentarios .profile:nth-child(3) {
+  align-self: flex-end;
+}
+
+/* incorporar estilos para tablet  */
+@media (max-width: 880px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+/* punto de quiebre - brakepoint */
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  section,
+  .puntuacion-titulares,
+  .puntuacion-valoraciones {
+    width: 100%;
+  }
+
+  section .puntuacion,
+  section .comentarios {
+    flex-direction: column;
+  }
+
+  section .puntuacion {
+    text-align: center;
+    gap: 0;
+  }
+
+
+  .puntuacion-valoraciones .contenedor-valoracion {
+    align-self: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  section .comentarios {
+    display: block;
+  }
+
+  section .comentarios .profile {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

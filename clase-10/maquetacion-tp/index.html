@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat UI</title>
+</head>
+
+<body>
+  <section>
+    <aside class="sidebar">
+      <input type="search" placeholder="Search..." class="search">
+      <ul class="contact-list">
+        <li class="contact">
+          <img src="avatar.jpeg" alt="imagen de perfil">
+          <div>
+            <h4>Vincent Porter</h4>
+            <!-- investigar ::before -->
+            <p class="status">left 7 mins ago</p>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    <main class="chat">
+      <section>
+        <div class="chat-header">
+          <img src="avatar.jpeg" alt="imagen de perfil">
+          <h3>Aiden Chavez</h3>
+          <p>Last seen: 2 hours ago</p>
+        </div>
+        <div class="chat-actions">
+          <button title="Sacar foto">📷</button>
+          <button>🖼️</button>
+          <button>⚙️</button>
+          <button>❓</button>
+        </div>
+      </section>
+      <section class="chat-messages">
+        <div class="message sent">
+          <p>Hi Aiden, how are you? How is the project coming along?</p>
+          <p class="timestamp">10:10 AM, Today</p>
+        </div>
+        <div class="message received">
+          <p>Are we meeting today?</p>
+          <p class="timestamp">10:12 AM, Today</p>
+        </div>
+        <div class="message received">
+          <p>Project has been already finished and I have results to show you.</p>
+          <p class="timestamp">10:15 AM, Today</p>
+        </div>
+      </section>
+      <section class="chat-footer">
+        <input type="text" placeholder="Enter text here...">
+        <button>✈️</button>
+      </section>
+    </main>
+  </section>
+</body>
+
+</html>

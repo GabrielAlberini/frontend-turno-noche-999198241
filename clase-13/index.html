@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat UI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+</head>
+
+<body>
+  <section class="main-chats">
+    <aside class="sidebar">
+      <input type="search" placeholder="Search..." class="search" />
+      <ul class="contact-list">
+        <li class="contact">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <div>
+            <h4>Vincent Porter</h4>
+            <p class="status-offline">left 7 mins ago</p>
+          </div>
+        </li>
+        <li class="contact">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <div>
+            <h4>Aiden Chavez</h4>
+            <p class="status-online">online</p>
+          </div>
+        </li>
+        <li class="contact">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <div>
+            <h4>Mike Thomas</h4>
+            <p class="status-online">online</p>
+          </div>
+        </li>
+        <li class="contact">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <div>
+            <h4>Christian Kelly</h4>
+            <p class="status-offline">left 10 hours ago</p>
+          </div>
+        </li>
+        <li class="contact">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <div>
+            <h4>Monica Ward</h4>
+            <p class="status-online">online</p>
+          </div>
+        </li>
+        <li class="contact">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <div>
+            <h4>Dean Henry</h4>
+            <p class="status-offline">offline since Oct 28</p>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    <main class="chats">
+      <section class="main-header">
+        <div class="chat-header">
+          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
+          <h3>Aiden Chavez</h3>
+          <p>Last seen: 2 hours ago</p>
+        </div>
+        <div class="chat-actions">
+          <button title="Tomar una foto">📷</button>
+          <button title="Enviar una foto">🖼️</button>
+          <button title="Configuración">⚙️</button>
+          <button title="Ayuda">❓</button>
+        </div>
+      </section>
+      <section class="chat-messages">
+        <div class="message-sent">
+          <p>Hi Aiden, how are you? How is the project coming along?</p>
+          <p class="timestamp">10:10 AM, Today</p>
+        </div>
+        <div class="message-received">
+          <p>Are we meeting today?</p>
+          <p class="timestamp">10:12 AM, Today</p>
+        </div>
+        <div class="message-received">
+          <p>
+            Project has been already finished and I have results to show you.
+          </p>
+          <p class="timestamp">10:15 AM, Today</p>
+        </div>
+      </section>
+      <section class="chat-footer">
+        <input type="text" placeholder="Enter text here..." class="text" />
+        <button title="Enviar" class="btn-enviar">✈️</button>
+      </section>
+    </main>
+  </section>
+
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>

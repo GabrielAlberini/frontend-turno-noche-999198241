@@ -14,55 +14,13 @@
     <aside class="sidebar">
       <input type="search" placeholder="Search..." class="search" />
       <ul class="contact-list">
-        <li class="contact">
-          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <div>
-            <h4>Vincent Porter</h4>
-            <p class="status-offline">left 7 mins ago</p>
-          </div>
-        </li>
-        <li class="contact">
-          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <div>
-            <h4>Aiden Chavez</h4>
-            <p class="status-online">online</p>
-          </div>
-        </li>
-        <li class="contact">
-          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <div>
-            <h4>Mike Thomas</h4>
-            <p class="status-online">online</p>
-          </div>
-        </li>
-        <li class="contact">
-          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <div>
-            <h4>Christian Kelly</h4>
-            <p class="status-offline">left 10 hours ago</p>
-          </div>
-        </li>
-        <li class="contact">
-          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <div>
-            <h4>Monica Ward</h4>
-            <p class="status-online">online</p>
-          </div>
-        </li>
-        <li class="contact">
-          <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <div>
-            <h4>Dean Henry</h4>
-            <p class="status-offline">offline since Oct 28</p>
-          </div>
-        </li>
       </ul>
     </aside>
     <main class="chats">
       <section class="main-header">
         <div class="chat-header">
           <img src="assets/avatar.jpeg" alt="imagen de perfil" />
-          <h3>Aiden Chavez</h3>
+          <h3 id="user-active">Aiden Chavez</h3>
           <p>Last seen: 2 hours ago</p>
         </div>
         <div class="chat-actions">
@@ -89,13 +47,16 @@
         </div>
       </section>
       <section class="chat-footer">
-        <input type="text" placeholder="Enter text here..." class="text" />
+        <input type="text" placeholder="Enter text here..." class="text" id="btn-send-message" />
         <button title="Enviar" class="btn-enviar">✈️</button>
       </section>
     </main>
   </section>
 
   <script src="./scripts/app.js"></script>
+  <script src="./scripts/template-string.js"></script>
+  <!-- <script src="./scripts/datos-complejos.js"></script> -->
+  <script src="./scripts/contacts-list.js"></script>
 </body>
 
 </html>

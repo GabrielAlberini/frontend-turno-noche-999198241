@@ -98,3 +98,14 @@ cuentaGabriel.transferir(500, cuentaMicaela)
 
 console.log(cuentaMicaela.saldo)
 console.log(cuentaGabriel.saldo)
+
+
+// --------------
+
+class Libro {
+
+}
+
+class Biblioteca {
+
+}
